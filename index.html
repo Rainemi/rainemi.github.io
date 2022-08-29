@@ -1,42 +1,52 @@
 <!DOCTYPE html>
+
     <head>
-        <title> My Bio Webpage</title>
+            <link href="bootsrap.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+            <style>html{font-family: 'Lato', sans-serif;} </style>
+        <title>
+            rakareem.cm
+        </title>
     </head>
+
     <body>
-        <h1>
-            <strong>this is a bio webpage</strong>
-        </h1>
-        <h2> what is your first name<br>and last name </h2>
-        <p>my Name is Roqueebat</p>
-        <img src="butterfly fantasia.jpg" width ="240" height="140" alt="a representation of me">
-
-        <h2> how are you doing</h2>
-        <p>quite alight</p>
-        <a href="personal.html"> My personal detail</a>
-        <style>
-            table, th, td {
-                border:1px solid black;
-                border-collapse: collapse;
-
-            }
-        </style>
-        <table>
-            <tr>
-                <th>body info</th>
-                <th>measurements</th>
-
-            </tr>
-            <tr>
-                <td>height</td>
-                <td>156cm</td>
-            </tr>
-            <tr>
-                <td>weight</td>
-                <td>62kg</td>
-            </tr>
-        </table>
-
-<!--this is a comment-->
-
+        <div class="container">
+            <div class="row">
+                <div id="bio" class="col-12 col-lg-6 text-center">
+                    <h1>  Roqueebat Kareem</h1>
+                    <img src="fantasia 2.jpg" width ="240" height="140" alt="a representation of me" class="img-fluid" />
+                </div>
+                <div id="more" class="col-12 col-lg-6">
+                        <p>I am a Back-end Developer enthusiast <br>I am curently learning Django through Youtube videos and Coursera
+                        <br> I'm taking an intenship program with SideHusle.ng</p>
+                        <h6>More info about me <br><a href="personal.html"> More info about me</a> </h6>
+                </div>
+                <div id="more" class="col-12 col-lg-6">
+                        <h2>Favourite Music Artists</h2>
+                        <ul>
+                                <li>Doja Cat</li>
+                                <li>Sasha Sloan</li>
+                                <li>Sam Smith</li>
+                                <li>Indilla</li>
+                        </ul>
+                        <h2>Fvourite Animes</h2>
+                        <ol>
+                                <li>Ishozoku reviewers</li>
+                                <li>Deadman Wonderland</li>
+                                <li>Tokyo Ghoul</li>
+                                <li>Assasination Classroom</li>
+                                <li>HunterxHunter</li>
+                        </ol>
+                        <a href="https://www.meta.com/user/123" class="btn btn-primary">My Meta Profile</a>
+                </div>
+            </div>
+        </div>
+        <script src="boottrap.bundle.min.js"></script>
+        
     </body>
+
+
 </html>
+
